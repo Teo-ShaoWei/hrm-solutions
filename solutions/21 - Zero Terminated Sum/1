@@ -1,0 +1,38 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅10/10 - speed ❌88/72 --
+
+    COMMENT  0
+    JUMP     b
+a:
+    COPYFROM 0
+    OUTBOX  
+b:
+    COPYFROM 5
+    COPYTO   0
+c:
+    INBOX   
+    JUMPZ    a
+    ADD      0
+    COPYTO   0
+    JUMP     c
+
+
+-- size --
+DEFINE COMMENT 0
+eJzTZ2BgmGtvlJJhnRlrY7Ik8pDh8+hmwzXxv0zairKtFNs83CXXsXmobed019rF7aa1a5Gt0pY3lrPX
+A7UxzIwI8QPRc8InV0dF3Gu+HX50/rXIkFUgMf2MrlKRoqOFxnVtRX+qQmoW5B6co54tuCIuT3BFcR1E
+/7G+LZO3TN0y+fUMvf4XM1d0LZslWKUxi6UwZ4ZZesnUwuSA7qrMoK692REdglWz2vX6QztZ5nf1Tl/z
+e9KSrctmvd7FMApGwSigGAAAGXhPWw;
+
+-- sum --
+DEFINE LABEL 0
+eJwzYWBg2OO9JfWfl16is+eKGE73RxGhTrKhc+1lQ1VsH0W8snodt8GiKvOTeVO+oUVbUb/L3pmc7ueW
+crpPXtnvIrr6jv2lFWk2vEuBxjDMCf+cMjPi6PwpUZLr/GNmr/eKk1xXluo8Tz+jdMqrzHvNK7JK0xJz
+q6bfzTu39GrhrXUTimM2gPR9r2kr2lQ3u9Gw/nXP+vq2BYb1mTu1G+1nz289mCfWuSZeuCs3ga/HOutY
+X0Ir8wSlLQbTOUrWzLDPXTmzLufxbPfi2fNmN15dsGXyhUXT1zCMglEwCkgCANLkXz0;
+
+-- 0 --
+DEFINE LABEL 5
+eJwTZmBgOFvS5hJc1OV+P/dW0LLs13GZWQfztLJimpZlG02Sz2OZH1lwbilnWdfivVVNczfVbZiQ2zC7
+UbtxZ0Zuw2Tf9/X9Xl9qT7odL2tzYRgFo2AUDDkAAGweJB8;
+
