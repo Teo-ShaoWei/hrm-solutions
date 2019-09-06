@@ -1,0 +1,36 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ❌13/10 - speed ✅81/82 --
+
+    COMMENT  0
+    JUMP     c
+a:
+b:
+    OUTBOX  
+c:
+    INBOX   
+    COPYTO   0
+    JUMPN    e
+d:
+    JUMPZ    b
+    OUTBOX  
+    BUMPDN   0
+    JUMP     d
+e:
+f:
+    OUTBOX  
+    BUMPUP   0
+    JUMPZ    a
+    JUMP     f
+
+
+-- speed --
+DEFINE COMMENT 0
+eJxLY2BgmKYVE3JX/aynqmqbyweFJkdbGQ63RilR/xbJnRnTtD5P6tbjWHRK79zSs7ohq4R0ItY+UIvZ
+sE7x1rp90iGrgNoZ7ttlxt63M0pJs5ndmGf5fq+ZWe4rkLiinVm6nL1RyiTn3ARut9dxbB65CYxen1N2
++jTlb/e9VrvTZ35LvdeKrumORpOyrT5PSrMpnQLSlxu4YcKF6MzuD+mSDVpZITXLsr3LVHKcC55mm6Wv
+yFoT/yH9UcTu5Plh9kkJ4YcTHkUIRW9JnRlhn7sw9FLVkhDFtnlhVdOvRbYtOB3bv+xDesBykJnXC/7M
+OFq+ZfLWWq2e5023Gha1CFbFtu3MWNSyJt6wPjPWrmpNvFt5YfLVwpMlt/JvNUgWaPUIFtvP3lsVsbag
+fv4mzabEzXfaEjeLdcpuBJnns8S7TGjR0cJ5c50LjKYJVjFMfN7J3csyn6/n0oozPfc2nuxdsrWlX217
+yVTZjfnTr60WXzC5+sKi0jT/xZmxZxfX2fEvFpS7Mf+gw8z5qVHTFpwsEVo0v8VzadV09mV1s3avOrmI
+YRSMAjoBAExXtr0;
+

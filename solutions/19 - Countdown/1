@@ -1,0 +1,27 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅10/10 - speed ❌111/82 --
+
+    COMMENT  0
+a:
+    INBOX   
+    COPYTO   0
+b:
+c:
+    OUTBOX  
+    COPYFROM 0
+    JUMPN    d
+    JUMPZ    a
+    BUMPDN   0
+    JUMP     c
+d:
+    BUMPUP   0
+    JUMP     b
+
+
+-- size --
+DEFINE COMMENT 0
+eJwzY2BgkNGoykxRzYx9rbQk0kp2fhizlGLEMYkVMV7ie7M7xbtKbWUetwXqzN/Er5u6bYJO5k5xLa1d
+jVKz1wO1MuhYtblAaKOU59aXqtJseJc+sQlZBRL757Uh6XTsmvgXWYoRX1PN0l0S2or8Y0Rrb4e/7okP
+q5qeHty1WCO4f5lqiOAKq5T+ZSA9VwuNJrGXv++vrl7R9bFufsvLxsnVi1qcCxJaP6c8bHkerdasGLG+
+fn5YRc2SSLfyzym9JUcL+UtimrpLS6cwVjrPM6w/t1S5hXcpwygYBaOAKAAALlNXZw;
+
