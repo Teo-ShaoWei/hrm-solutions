@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅12/12 - speed ❌31/28 --
+
+    COMMENT  0
+a:
+    INBOX   
+    JUMPN    f
+    INBOX   
+    JUMPN    d
+b:
+    COPYFROM 4
+c:
+    OUTBOX  
+    JUMP     a
+d:
+e:
+    COPYFROM 5
+    JUMP     c
+f:
+    INBOX   
+    JUMPN    b
+    JUMP     e
+
+
+-- size --
+DEFINE COMMENT 0
+eJwzYGBg2GH6Pb3a5H1ig9HruFN6mbEL1PZmJ6q1FV3STu3g0n/fv9Vs70w9y6Pz8yx9lhhaCK5oM7i0
+YrZG2wKgVoYrTmc9QXSvq1HKSTf3hSD268ANSUtCjFL+JuUm9MWI1s4J1+qZF2Y0STWkbtaJuD8zylLr
+ZoHUTS1UbDteJtt8qEKywbr6XPn2Goa8iprStNqqNfGt5VpxZ0v0Ei8VGaXcyq/LuZvXX3E3b36LZMGG
+CZOLrGd0lzbN3VoLsW8UjIJRQD4AANxYUZM;
+
