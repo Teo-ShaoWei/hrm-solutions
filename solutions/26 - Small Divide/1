@@ -1,0 +1,46 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅15/15 - speed ✅71/76 --
+
+    JUMP     b
+a:
+    COPYFROM 3
+    OUTBOX  
+b:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 9
+    COPYTO   3
+c:
+    COPYFROM 0
+    SUB      1
+    JUMPN    a
+    COPYTO   0
+    BUMPUP   3
+    JUMP     c
+
+
+-- n --
+DEFINE LABEL 0
+eJzjY2Bg6IlVjDgWP7vRKXHFDvsklvk7UqbX6WRuSHqVuSZ+cc7zaJn81CjB4ufRnGVm6W7lss1u5T5L
+GGgI5rRNrpZuz+yO6LCfLdbpPA8kdmGRWuflhTzlkfOb8h/PrstZNoul8PWM1I6VM0unqM62nnF7XtX0
+aQtKp/gvXtHFuyShtXvJ886QhQdPiS7MfWW/8tadHasDroLMYTwQ06R9Yn5L/6X5LSD+klNr4pefbCta
+deLkIhD/6cNz5U8fHpzz9GHhxEePZjfGPblUdePZyRKe184FHW+a8u0+HC2kpd9HwSigNwAAvw1owA;
+
+-- d --
+DEFINE LABEL 1
+eJyTYWBgYKmoy0nMNUrRyfycYpWyN7sloauUN/Zec1B06ZSJ0U1zz8XwLj2cELOhJjlxs3lq4mbOsskr
+cxvaFixqsZ5xr/V5p1wbS2FExzX/ax0MDhEd743vtYoq6jU4O62vnx6wtqGtaHnTveab7e4LvXrvbWQY
+BaNgFAwqAAAWqDNM;
+
+-- q --
+DEFINE LABEL 3
+eJwTZWBgeNNQmra24X1iRc3s4OaK2cGRBa/jovMLk2/lM+TNKOAo6S593tlavqZ3b9X7/k11Wj1Lm6sy
+nzd1lb5puNVQXLdz2vYa2Y0/q5tOb6o7eCq0c8tBhlEwCkbBkAEAWsYsGQ;
+
+-- 0 --
+DEFINE LABEL 9
+eJwTYmBgcKx0djpb4u4alzc9YHHO+0TFXMW2W/ldi4OLbq3jKU3cfKhCaUtuQ8iqjCbepVHtap1inc4F
+N9ufR8u13Qpa3sTjWV190IFhFIyCUTAkAQBl8h8e;
+
