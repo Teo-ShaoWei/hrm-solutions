@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅11/12 - speed ✅79/82 --
+
+    JUMP     c
+a:
+    COPYFROM 1
+b:
+    OUTBOX  
+c:
+    INBOX   
+    JUMPZ    b
+    COPYTO   0
+d:
+    COPYTO   1
+    BUMPDN   0
+    JUMPZ    a
+    ADD      1
+    JUMP     d
+
+
+-- x --
+DEFINE LABEL 0
+eJwTYmBgcPB6n5gf8D4xK2hL6sJQrR7l0A0TsoKqpnu4n1sKlGaoS8pN6IwrTA6K3pstFdFfIRue0CoV
+8b5fNKpq+ulY53l1SUfnM4yCUTAKhiQAAHiqHNA;
+
+-- ∑x --
+DEFINE LABEL 1
+eJzTYGBgyLOss3P1OOhQk8zgEBQ9O3hmhFYcUJjhvYWz0307vURfV8GqKp/CiZOcm+ZusFiy1dK07BCT
+0aVr/S6iNxXCLl3LzAq58Sv58wGQHrPa2Y0F9bMbFVoV2yQ6VnRd6TSaFNB9aYVAt+xGIH/H0uYN+0Dq
+Xs+QbS6aJttsNXlJ+76Ja3pd+9sWME+QXOcwccnWqslau95N19v7ekbuHoZRMApGAU0BAJeWRHI;
+
