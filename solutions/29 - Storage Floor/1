@@ -1,0 +1,15 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅5/5 - speed ✅25/25 --
+
+a:
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+    JUMP     a
+
+
+-- i --
+DEFINE LABEL 12
+eJxjY2BguFoY4A2kGIKLDuZNLTSadLVwyVaGUTAKRsGIAAC7YQhF;
+
