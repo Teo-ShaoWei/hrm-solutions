@@ -1,0 +1,50 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅16/16 - speed ✅377/393 --
+
+    JUMP     b
+a:
+    COPYFROM 17
+    OUTBOX  
+b:
+    INBOX   
+    COPYTO   15
+    COPYFROM 14
+    COPYTO   16
+    COPYTO   17
+    JUMP     e
+c:
+    BUMPUP   17
+d:
+    BUMPUP   16
+e:
+    COPYFROM [16]
+    JUMPZ    a
+    SUB      15
+    JUMPZ    c
+    JUMP     d
+
+
+-- 0 --
+DEFINE LABEL 14
+eJwTY2Bg4CkV9JlcFOJ3veBWkGKuXuKLrJCatGy1zgW5e2deLwhY7la+ZOuu6hU71jaobV/UMn9TVLvg
+iiudRpNCO50L7rRlxmY0TQ8wruv3qq3y9nArP+vJWSbowzAKRsEoGBIAAG+eJqM;
+
+-- char --
+DEFINE LABEL 15
+eJwzZWBg4CldE6+Ya5SSk7kz40DipSqnxPktNcnv+7elVk0vTK+bpZjbNLejrG4WUCnD2oYVehlN90KX
+N+X2aTbxLn3ZyDJfrTmmaX5rW9G1DrP0K52laWd67HO7eo8WsvUvaXftt58N0se1lKXw7OI/WaILt6RK
+zS9Nk5+7Nzt91rVarZkbJmTN/DH12ayDcxLnHJ1/Y/7emf6L9fo7l/KUey5N7WBfZj3DcrXPEpAZiltK
+0+K2NuXf2RpSM3fr9DXBOxXbenf3V3DudS9u3cdSaH3oYJ7x0aZ8hlEwCkYB0QAAbgthSQ;
+
+-- i --
+DEFINE LABEL 16
+eJxjY2BgWJArGQSkGBRzecrv5ya0Jua+3sUwCkbBKBgRAAB9EAc0;
+
+-- count --
+DEFINE LABEL 17
+eJyzZ2BgcPYsTet1/Zwi6Wid9cRGsGqpzfNOOfu6WVecTi464nFphbXP5JVAZQzu8aK1fTGitVOi7jWH
+R1rPuBbJsWhidMiqnljJdS0Jt9ZVpoiu3pzms2RDetX0Delrer+mTq/blyRYBdI7uYij5Hzxknb+EvvZ
+Z0tOLjpVyrv0aLnPkj9VzvO+1H6etL5erVOvgaVQr6FpbnYj79KMpv5lIH1nejhKjvVtmHCs79Y6jr7c
+Pe19PkuaJrzv/zdxfsu2Kf0VRdM4St5Nbyt6NoujJH5uf4XsvJCayPkbJsycD9HPtbQux35lVab1oZ0Z
+IL7c1qPOcVt3TpPZJrqaYRSMglHAAAC1c3Gu;
+
