@@ -1,0 +1,23 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅10/11 - speed ✅121/122 --
+
+a:
+b:
+    BUMPUP   14
+    INBOX   
+    JUMPZ    c
+    COPYTO   [14]
+    JUMP     b
+c:
+d:
+    BUMPDN   14
+    JUMPZ    a
+    COPYFROM [14]
+    OUTBOX  
+    JUMP     d
+
+
+-- i --
+DEFINE LABEL 14
+eJxjY2Bg4C856QakGC4VBVROLUzcHFmw5SDDKBgFo2BEAACfsQf+;
+
