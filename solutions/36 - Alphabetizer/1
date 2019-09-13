@@ -1,0 +1,63 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅31/39 - speed ✅70/109 --
+
+    COPYFROM 23
+    COPYTO   22
+a:
+    INBOX   
+    COPYTO   [22]
+    JUMPZ    b
+    BUMPUP   22
+    JUMP     a
+b:
+    COPYFROM 23
+    COPYTO   22
+    JUMP     d
+c:
+    COPYFROM [22]
+    OUTBOX  
+    BUMPUP   22
+d:
+    COPYFROM [22]
+    JUMPZ    k
+    INBOX   
+    JUMPZ    j
+    COPYTO   21
+    SUB      [22]
+    JUMPZ    c
+    JUMPN    f
+e:
+    COPYFROM [22]
+    JUMPZ    i
+    OUTBOX  
+    BUMPUP   22
+    JUMP     e
+f:
+    COPYFROM 21
+g:
+    OUTBOX  
+    INBOX   
+    JUMPZ    h
+    JUMP     g
+h:
+i:
+j:
+k:
+
+
+-- char --
+DEFINE LABEL 21
+eJwzZmBgKPfdm93ubp0V4LI3O9TpYF6CnWBVms38Fk3rDRM0rc2mqtgenCPtcHJRu7vgilrvgOVALQxM
+iVvMOeI3JAnEPO+MCX+8ZU74tdU3ItoWBEV/nsQRn9DqkhDTtC9JsmFzmmzz24zXPSuyWOa/yJq/CaQ3
+tTmhVa05pkm7cXqdWW1ITUMl79Kf1dPXfKyLWKvXcG318ybepcktTXPnt26YIN0uuW56R+o2ge7MnSC9
+26ZINpRMze3bM0lpy4/JzvM2Ttsw4fWM1z2iCxXbGEbBKBgFJAMAh4RZxA;
+
+-- i --
+DEFINE LABEL 22
+eJzjYGBgmFD8xwZIMQQWi9aCaMFinvKrhXWz4vLMDzOMglEwCoY1AACTlwjF;
+
+-- 0 --
+DEFINE LABEL 23
+eJwTZWBg+FmtZ3y8TM94RsFR57l5IX5Psw/mpWXfaniavXdmXF7MhqmFPw4LFtuf7C1pOs1S4XzmT9Xe
+4+/rU7ctb3JfGNW+N/tm+62g2DZ314TWgw5ba98bM4yCUTAKhgwAAASKKmY;
+
