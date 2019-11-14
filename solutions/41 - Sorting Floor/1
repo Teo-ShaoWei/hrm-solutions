@@ -1,0 +1,80 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- size ✅30/34 - speed ✅567/714 --
+
+    JUMP     d
+a:
+    COPYTO   23
+    JUMP     c
+b:
+    COPYFROM [23]
+    OUTBOX  
+    BUMPUP   23
+c:
+    SUB      20
+    JUMPN    b
+d:
+    COPYFROM 24
+    COPYTO   20
+    INBOX   
+    COPYTO   0
+    JUMP     g
+e:
+f:
+    COPYFROM 19
+    COPYTO   [22]
+g:
+    BUMPUP   20
+    COPYTO   22
+    COPYTO   21
+    BUMPDN   21
+    INBOX   
+    JUMPZ    a
+    COPYTO   19
+h:
+    COPYFROM [21]
+    COPYTO   [22]
+    SUB      19
+    JUMPN    f
+    BUMPDN   22
+    JUMPZ    e
+    BUMPDN   21
+    JUMP     h
+
+
+-- temp --
+DEFINE LABEL 19
+eJyzYmBgOOJxsqTWm6d8efC5cv8YjhKuuKOFQGEG0Shvj8chzvNAbKdElvnbUutmvco0mqSe/bpHPXt2
+o1ZWSM3bjP4KkzSe8ppk0dq6pJimA4mvexiSSqfUJLPMN089t/RV5rXVc/OurZ5c1L8ssPjkIpBZf6pS
+O6qrCyfurQpZVVC/pD234V6zWvPsxti29/0329sW9PTo9TNMVGyzmpzZXTKVA6xn3txrtZHztXpEFypt
+ubww4rbQov4rIPGYeZOrJy7iKPm+2rng1YaTJY8232p4tDm14/nGDRP012+ZzLp857S+xfazGUbBKBgF
+WAEAP7Nonw;
+
+-- length --
+DEFINE LABEL 20
+eJwLZGBguKq1ZOtRg4i1f4x9luhYFU6cb3epStphb/Ysh9SoRba3VF5Z/bEpsHAv3mT+eVKe5bmlajaz
+1wO1MbB58C5dE/hj6sugwolZQakduYHzW775xjTZeqd2nHTzWdLldmnFcXfJdYxeMRtSQ2Q3gvT4xK7p
+PR1rNOlcDO/SwwlbJpunqnW+zUhozcx63JaWvaLrUU7V9AW5S7bezYOoL61VbPtfqdbpWLmmd3+l9Yzt
+Ne4L19ezzL/XumFCVLtaZ0SHYNWkrh9T+7vVtgd1+Vy60/b4UUKr1gu15vevXzbqvc5u1HqxtkHwGsis
+np4tk9fMeN1zdcHjNq6lsxtBYgvnvI6Tn7slNX7u887EOUYHHsx5vQskvnnta4MN69Q6y9bsPFK47tzS
+7A1Gk55v1OqR2/q88/r2zO4Ju6qm++3uX8a3e81uhlEwCoYwAADMNJr+;
+
+-- i - 1 --
+DEFINE LABEL 21
+eJzjY2BgqPKJCARSDOW+12q/+X6etN138koQ/0ScXv+t/NIpIPbyptdxz5sCKjWb3vdrNgUsZyASHC/T
+2wuiP9ZdW/2+/vWugnqjA7kNS7ZqNk1fo9AquEK6/dKKiI5rq6d0zt80pfP1rmsdWw4Sa/YoGAWjgHIA
+ACVkMV8;
+
+-- i --
+DEFINE LABEL 22
+eJxjY2BguFqYEA6kGCIL7jXPKLCfHZ3fdJphFIyCUTAiAABIJggn;
+
+-- k --
+DEFINE LABEL 23
+eJzjZWBgCCxucgws3jJ5amHiZiCXIbvxXLlxnWitd+njtgnFmd38JXr91dVdi43rbq1bX5+5k2EUjIJR
+MGwAANYzFTo;
+
+-- 0 --
+DEFINE LABEL 24
+eJwTYWBgmJtnb78tNSLQPikzljVBsKolwX72gcRzS/8mTV5ZmXJt9Yb06WumFrov5CyzntFaXjjRsVKy
+YX8lS6FjZUzI0fKTbh1lLM5+JXV2kgWV1gyjYBSMgiEFAJCjIVE;
+
